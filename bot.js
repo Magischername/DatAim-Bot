@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 't!fishy') {
-    	message.reply('NÖÖÖÖÖ');
+    if (message.content === 'Hilfe') {
+    	message.reply('Gibt es leider nicht');
   	}
 });
 
