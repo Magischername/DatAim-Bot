@@ -6,14 +6,15 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Hilfe') {
+    if (message.content === 'd!test') {
     	message.reply('Gibt es leider nicht');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'd!help') {
-        message.channel.send('Hier ist eine Liste der Befehle');
+        message.channel.send('```Markdown Liste der Befehle ´´´');
+        message.channel.send('```fix Basic Befehle: d!test´´´');
     }
 });
 
