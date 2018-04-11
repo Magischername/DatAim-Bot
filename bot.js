@@ -6,15 +6,5 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-
-// Commands
-
-client.on('message', message => {
-    if (message.content === ('d!help') {
-        message.channel.send({embed: {
-        color: 3447003,
-        description: "~~Liste der Befehle~~"
-}});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
