@@ -13,8 +13,8 @@ client.on('message', message => {
     if (message.content === 'd!help' {
         message.channel.send({embed: {
         color: 3447003,
-        description: "~~Liste der Befehle~~
-                             }});
+        description: "~~Liste der Befehle~~"
+}});
 
 client.on('message', message => {
     if (message.content === ("help") {
