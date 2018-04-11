@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'd!help') {
-        message.channel.send(' ```fix Liste der Befehle ``` ');
+        message.channel.send(' ```Markdown #Liste der Befehle ``` ');
         message.channel.send(' ```Basic Befehle: d!test ``` ');
     }
 });
