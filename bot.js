@@ -16,14 +16,5 @@ client.on('message', message => {
         description: "~~Liste der Befehle~~"
 }});
 
-client.on('message', message => {
-    if (message.content === ("help") {
-        message.channel.send(" ```~~Liste der Befehle~~ ``` ");
-        message.channel.send(' Befehle müssen mit einem `d!` anfangen.');
-        message.channel.send(' ***1. Basics -*** `help` ');
-        message.channel.send(' ***2. Platzhalter -***  ');
-    }
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
