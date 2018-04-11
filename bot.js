@@ -6,15 +6,19 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === (prefix + 'test') {
-    	message.reply('Gibt es leider nicht');
-  	}
-});
+
+// Commands
 
 client.on('message', message => {
-    if (message.content === (prefix + 'help') {
-        message.channel.send(' ```~~Liste der Befehle~~ ``` ');
+    if (message.content === 'd!help' {
+        message.channel.send({embed: {
+        color: 3447003,
+        description: "~~Liste der Befehle~~
+                             }});
+
+client.on('message', message => {
+    if (message.content === ("help") {
+        message.channel.send(" ```~~Liste der Befehle~~ ``` ");
         message.channel.send(' Befehle müssen mit einem `d!` anfangen.');
         message.channel.send(' ***1. Basics -*** `help` ');
         message.channel.send(' ***2. Platzhalter -***  ');
