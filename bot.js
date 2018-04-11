@@ -16,7 +16,7 @@ client.on('message', message => {
         message.channel.send(' ```~~Liste der Befehle~~ ``` ');
         message.channel.send(' ``` Befehle müssen mit einem d! anfangen.``` ');
         message.channel.send(' ``` 1. Basics - help``` ');
-        message.channel.send(' ``` 2. Platzhalter ``` ');
+        message.channel.send(' ``` 2. Platzhalter  ``` ');
     }
 });
 
