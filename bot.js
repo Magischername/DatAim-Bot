@@ -4,6 +4,14 @@ var logger = require('winston');
 var auth = require('./auth.json');
 
 
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const prefix = "d!";
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
