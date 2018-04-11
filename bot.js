@@ -10,7 +10,7 @@ client.on('ready', () => {
 // Commands
 
 client.on('message', message => {
-    if (message.content === 'd!help' {
+    if (message.content === ('d!help') {
         message.channel.send({embed: {
         color: 3447003,
         description: "~~Liste der Befehle~~"
