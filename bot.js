@@ -1,18 +1,19 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const prefix = "d!";
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
 
 client.on('message', message => {
-    if (message.content === 'd!test') {
+    if (message.content === (prefix + 'test') {
     	message.reply('Gibt es leider nicht');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'd!help') {
+    if (message.content === (prefix + 'help') {
         message.channel.send(' ```~~Liste der Befehle~~ ``` ');
         message.channel.send(' Befehle müssen mit einem `d!` anfangen.');
         message.channel.send(' ***1. Basics -*** `help` ');
