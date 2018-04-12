@@ -12,11 +12,10 @@ client.on("message", (message) => {
   if (message.content.startsWith(config.prefix + "ping")) {
     message.channel.send("pong!");
   } else
-  {
   if (message.content.startsWith(config.prefix + "foo")) {
     message.channel.send("bar!");
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(config.token);
-
