@@ -15,6 +15,9 @@ switch (command) {
   case "blah" :
     message.channel.send('Meh.');
     break;
+  case "tim" :
+    message.channel.send('Tom.');
+    break;
 }
 
 // THIS  MUST  BE  THIS  WAY
