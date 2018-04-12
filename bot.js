@@ -14,7 +14,7 @@ client.on("message", (message) => {
   } else
   if (message.content.startsWith(config.prefix + "foo")) {
     message.channel.send("bar!");
-  }
+  } else
   if (message.content.startsWith(config.prefix + "Tim")) {
     message.channel.send("Tom"));
   }
